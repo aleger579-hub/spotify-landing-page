@@ -1,0 +1,176 @@
+
+
+nav {
+    height: 6dvh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-img-invert {
+    filter: invert(100);
+    height: 3.5dvh;
+}
+
+.nav-link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+body {
+    background-color: black;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#home {
+    width: 4.5dvh;
+    height: 4.5dvh;
+    border-radius: 22dvh;
+    border-color: #ffffff;
+    margin-left: 55dvh;
+
+}
+
+#line-thing {
+    filter: invert(100);
+}
+
+#search-bar {
+    width: 45dvh;
+    height: 4.5dvh;
+    border-radius: 22dvh;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 50px;
+
+    background-color: #121212;
+}
+
+#support {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 5px;
+    
+}
+
+
+/* bodyodyody */
+
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#your-library {
+    width: 40dvh;
+    height: 85dvh;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+#library-title {
+    color: #ffffff;
+    display: flex;
+    margin-top: 40px;
+}
+
+#create-playlist {
+    color: #ffffff;
+    width: 38dvh;
+    height: 15dvh;
+    background-color: #212020;
+    margin-left: 7px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: start;
+}
+
+#text1 {
+    margin:0;
+}
+
+#text2 {
+    margin:0;
+    color: #B3B3B3;
+}
+
+#browse-podcasts {
+    color: #ffffff;
+    width: 38dvh;
+    height: 15dvh;
+    background-color: #212020;
+    margin-left: 7px;
+    border-radius: 10px;
+    margin-top:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: start;
+    
+}
+
+#policy {
+    color: #ffffff;
+    width: 38dvh;
+    height: 15dvh;
+    background-color: transparent;
+    margin-left: 7px;
+    margin-top: 100px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    
+}
+
+#popular-albums {
+    width: 140dvh;
+    height: 85dvh;
+    border-radius: 10px;
+    background-color: #121212;
+    color: #ffffff;
+
+    margin-left: 6px;
+
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-content:space-between;
+
+}
+
+#header1 {
+    grid-column: 1/9;
+    grid-row:1;
+    align-self:start;
+    margin: 0px;
+}
+
+.image-size {
+    width:125px;
+    height:130px;
+    border-radius: 5px;
+}
