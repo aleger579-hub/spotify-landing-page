@@ -2,6 +2,7 @@
 
 nav {
     height: 6dvh;
+    width: 1525px;
 
     display: flex;
     flex-direction: row;
@@ -21,6 +22,7 @@ nav {
     text-decoration: none;
     color: #ffffff;
 }
+
 body {
     background-color: black;
 
@@ -29,6 +31,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 #home {
     width: 4.5dvh;
@@ -53,7 +57,7 @@ body {
 
     margin-left: 50px;
 
-    background-color: #121212;
+    background-color: #171717;
 }
 
 #support {
@@ -72,15 +76,15 @@ body {
 #main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 #your-library {
-    width: 40dvh;
-    height: 85dvh;
+    width: 348px;
+    height: 75dvh;
     border-radius: 10px;
     background-color: #121212;
+    margin-top: 10px;
 }
 
 #library-title {
@@ -92,7 +96,7 @@ body {
 #create-playlist {
     color: #ffffff;
     width: 38dvh;
-    height: 15dvh;
+    height: 13dvh;
     background-color: #212020;
     margin-left: 7px;
     border-radius: 10px;
@@ -115,7 +119,7 @@ body {
 #browse-podcasts {
     color: #ffffff;
     width: 38dvh;
-    height: 15dvh;
+    height: 13dvh;
     background-color: #212020;
     margin-left: 7px;
     border-radius: 10px;
@@ -147,30 +151,57 @@ body {
 }
 
 #popular-albums {
-    width: 140dvh;
-    height: 85dvh;
+    width: 1200px;
+    height: 75dvh;
     border-radius: 10px;
     background-color: #121212;
     color: #ffffff;
 
-    margin-left: 6px;
+    margin-top: 10px;
+    margin-left:10px;
+    
 
     display:grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(8,143px);
     grid-template-rows: repeat(3, 1fr);
-    align-content:space-between;
+    align-content:flex-start;
+    row-gap: 20px;
 
 }
 
 #header1 {
+    display:grid;
     grid-column: 1/9;
     grid-row:1;
-    align-self:start;
-    margin: 0px;
+    margin-left: -5px;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 
-.image-size {
+article .image-size {
     width:125px;
     height:130px;
     border-radius: 5px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+article #text4 {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: #B3B3B3;
+}
+
+article #text3 {
+    margin-left:20px;
+    margin-bottom: -20px;
+}
+
+footer{
+    height:50px;
+    width:1525px;
+
+    background-color: linear-gradient(90 deg #b52bb8, #5b9df5);;
+    
+    color:#ffffff;
 }
