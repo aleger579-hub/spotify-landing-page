@@ -23,8 +23,14 @@ nav {
     color: #ffffff;
 }
 
+#bin {
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+
 body {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
 
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
@@ -38,8 +44,8 @@ body {
     width: 4.5dvh;
     height: 4.5dvh;
     border-radius: 22dvh;
-    border-color: #ffffff;
     margin-left: 55dvh;
+    background-color: #e0dcdc;
 
 }
 
@@ -52,12 +58,27 @@ body {
     height: 4.5dvh;
     border-radius: 22dvh;
 
+    font-size: 13px;
+
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     margin-left: 50px;
 
     background-color: #171717;
+}
+
+#text10 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #B3B3B3;
+}
+
+#search {
+    height: 2.5dvh;
+    margin-top: 7px;
+    margin-left: 5px;
 }
 
 #support {
@@ -66,6 +87,8 @@ body {
     justify-content: space-between;
     margin-left: 50px;
     margin-top: 5px;
+    word-spacing: 2px;
+    font-size: 12;
     
 }
 
@@ -82,15 +105,17 @@ body {
 #your-library {
     width: 348px;
     height: 75dvh;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #121212;
     margin-top: 10px;
+
 }
 
 #library-title {
     color: #ffffff;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left:15px;
 }
 
 #create-playlist {
@@ -99,6 +124,7 @@ body {
     height: 13dvh;
     background-color: #212020;
     margin-left: 7px;
+    margin-top:20px;
     border-radius: 10px;
 
     display: flex;
@@ -136,18 +162,41 @@ body {
     color: #ffffff;
     width: 38dvh;
     height: 15dvh;
+    font-size: 8px;
     background-color: transparent;
     margin-left: 7px;
-    margin-top: 100px;
+    margin-top: 160px;
     border-radius: 10px;
+    
 
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-content: flex-start;
     flex-wrap: wrap;
+    gap: 15px; 
+}
 
-    
+#text8 {
+    color:#B3B3B3;
+}
+
+#text9 {
+    color:#ffffff;
+    background-color: #212121;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 700;
+    border-color: #b3b3b3;
+    border-style:solid;
+    border-width: 1px;
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#intobutton {
+    height:15px;
+    width:15px;
+    padding-top:5px;
 }
 
 #popular-albums {
@@ -201,7 +250,26 @@ footer{
     height:50px;
     width:1525px;
 
-    background-color: linear-gradient(90 deg #b52bb8, #5b9df5);;
+    background:linear-gradient(right, purple, blue);
     
     color:#ffffff;
+}
+
+.browse {
+    margin:0;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#button1 {
+    color: #000;
+    height: 25px;
+    width: 12dvh;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border:none;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left:10px;
+    margin-top:10px;
 }
